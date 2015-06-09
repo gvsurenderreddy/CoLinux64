@@ -1,0 +1,13 @@
+*.pyc
+*.o
+*.a
+*.exe
+*.res
+*.sys
+bin/user-build.cfg*
+*.comake.build
+src/colinux/arch/current
+src/colinux/common/file_ids.c
+src/colinux/common/version.h
+src/colinux/os/current
+src/colinux/os/winnt/user/daemon/res/resources_def.inc
