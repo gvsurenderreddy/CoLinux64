@@ -65,7 +65,7 @@ create_md5sums()
 	|| error_exit 10 "can not create md5sum"
 
 	# Md5sums for patches
-	local SERIES=`grep -v '#.*' patch/series-$KERNEL_VERSION`
+	SERIES=`grep -v '#.*' patch/series-$KERNEL_VERSION`
 	for name in $SERIES
 	do
 		if [ -e "patch/$name" ]
